@@ -13,16 +13,19 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .aaa {
      text-align: center;
   }
+
 }
-.centered-main-page-element {
+
+.position-element_center {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -39,10 +42,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-li, h3 {
+li, 
+h3 {
   list-style:none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button {
